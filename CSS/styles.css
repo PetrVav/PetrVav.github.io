@@ -1,0 +1,51 @@
+input {
+    width: 250px;
+    height: 250px;
+    color: brown;
+    font-size: 50px;
+    }
+
+h1 {
+    color:pink;
+    background-color: darkgreen;
+}
+
+.img_220 {
+    width: 220px;
+    height: 400px;
+    }
+
+.img_350 {
+    width: 350px;
+    height: 400px;
+    }
+
+.img_900 {
+    width: 900px;
+    height: 500px;
+    }
+ 
+.main_container {
+    display: flex;
+       
+    }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    }
+  
+.img_400 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+   }
+
+.main_container {
+        display: flex;
+       
+    }
+
+.gray-element {
+    background-color: lightgray;
+    }
