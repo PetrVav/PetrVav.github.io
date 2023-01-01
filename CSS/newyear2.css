@@ -3,7 +3,7 @@
 }
 
 .card-container {
-    background-image: url("bg.jpg");
+    background-image: url("./bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -141,6 +141,11 @@
 .merry-christmas img {
     width: 300px;
     height: auto;
+}
+
+.card-page__title {
+    font-size: 20px;
+    color: #D50000;
 }
 
 @media (max-width: 767px) {
