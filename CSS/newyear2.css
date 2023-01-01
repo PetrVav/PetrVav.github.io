@@ -3,7 +3,7 @@
 }
 
 .card-container {
-    background-image: url("./bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -91,7 +91,7 @@
 .cart-page-outside {
     border: 10px solid #fbfbfb;
     background-color: #c72320;
-    /* background-image: url("front-bg.png"); */
+    background-image: url("../img/front-bg.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@
 .cart-page-inside,
 .cart-page-bottom {
     background-color: #d4d1d0;
-    background-image: url("pattern.png");
+    background-image: url("../img/pattern.png");
     border: 20px solid #d4d1d0;
     display: flex;
     flex-flow: column;
