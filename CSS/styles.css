@@ -20,6 +20,11 @@ h1 {
     text-align: center;
 }
 
+.img_200 {
+    width: 200px;
+    height: 400px;
+
+}
 
 .img_220 {
     width: 220px;
@@ -51,6 +56,11 @@ h1 {
         display: flex;
        
     }
+
+.container_total2022 {
+    display: flex;
+    justify-content: space-around;
+}
 
 .gray-element {
     background-color: lightgray;
