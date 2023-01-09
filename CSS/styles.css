@@ -57,7 +57,7 @@ h1 {
        
     }
 
-.container_total2022 {
+.total_container {
     display: flex;
     justify-content: space-around;
 }
