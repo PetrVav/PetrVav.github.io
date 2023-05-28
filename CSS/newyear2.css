@@ -1,3 +1,13 @@
+.menu-link {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8f93a3;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .card-container * {
     box-sizing: border-box;
 }
@@ -181,7 +191,7 @@
         background-position: 85px 30px;
         font-size: 11px;
     }
-    
+
     .card-page__title {
         font-size: 13px;
         color: #D50000;
@@ -224,7 +234,7 @@
         background-position: 0px 30px;
         font-size: 10px;
     }
-    
+
     .card-page__title {
         font-size: 12px;
         color: #D50000;
