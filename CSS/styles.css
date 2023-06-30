@@ -25,6 +25,11 @@
     height: 400px;
 }
 
+.img_220 {
+    width: 220px;
+    height: 400px;
+}
+
 .img_350 {
     width: 350px;
     height: 400px;
@@ -50,11 +55,44 @@
     display: flex;
 }
 
+.main_container {
+    display: flex;
+}
+
 .total_container {
     display: flex;
-    justify-content: space-around;
 }
 
 .gray-element {
     background-color: lightgray;
+}
+
+/* CSS стили для адаптации на разных устройствах */
+@media (min-width: 1025px) {
+
+    .img_350,
+    .img_900,
+    .img_400,
+    .img_200 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .img_350,
+    .img_900,
+    .img_400,
+    .img_200 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 479px) {
+    .img_200 {
+        width: 100%;
+        height: auto;
+    }
 }
