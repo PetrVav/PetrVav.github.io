@@ -9,27 +9,10 @@
     display: block;
 }
 
-/* body {
+body {
     background-color: lightblue;
-} */
-
-/*body {
     font-family: Arial, Helvetica, sans-serif;
-   
 }
-
-input {
-    width: 250px;
-    height: 250px;
-    color: brown;
-    font-size: 50px;
-    }
-
-h1 {
-    color:pink;
-    background-color: darkgreen;
-    text-align: center;
-} */
 
 .title {
     color: pink;
@@ -37,29 +20,14 @@ h1 {
     text-align: center;
 }
 
-.header {
-    text-align: center;
-    background-color: grey;
-}
-
 .img_200 {
     width: 200px;
     height: 400px;
-
-}
-
-.img_200 {
-    width: 100%;
-    /* Адаптация ширины для мобильных устройств */
-    height: auto;
-    /* Автоматический рассчет высоты */
 }
 
 .img_350 {
-    width: 100%;
-    /* Адаптация ширины для мобильных устройств */
-    height: auto;
-    /* Автоматический рассчет высоты */
+    width: 350px;
+    height: 400px;
 }
 
 .img_900 {
@@ -70,21 +38,17 @@ h1 {
 .container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .img_400 {
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     border-radius: 50px;
 }
 
 .blockGb {
     display: flex;
-}
-
-.main_container {
-    display: flex;
-
 }
 
 .total_container {
