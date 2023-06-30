@@ -9,10 +9,10 @@
     display: block;
 }
 
-body {
+/* body {
     background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 .title {
     color: pink;
@@ -42,8 +42,8 @@ body {
 }
 
 .img_400 {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     border-radius: 50px;
 }
 
