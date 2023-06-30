@@ -68,17 +68,6 @@
 }
 
 /* CSS стили для адаптации на разных устройствах */
-@media (min-width: 1025px) {
-
-    .img_350,
-    .img_900,
-    .img_400,
-    .img_200 {
-        width: 100%;
-        height: auto;
-    }
-}
-
 @media (max-width: 767px) {
 
     .img_350,
