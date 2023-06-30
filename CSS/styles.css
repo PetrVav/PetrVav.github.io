@@ -20,6 +20,11 @@
     text-align: center;
 }
 
+.header {
+    text-align: center;
+    background-color: grey;
+}
+
 .img_200 {
     width: 200px;
     height: 400px;
@@ -61,6 +66,7 @@
 
 .total_container {
     display: flex;
+    justify-content: space-around;
 }
 
 .gray-element {
@@ -80,6 +86,8 @@
 }
 
 @media (max-width: 479px) {
+
+    .img_400,
     .img_200 {
         width: 100%;
         height: auto;
