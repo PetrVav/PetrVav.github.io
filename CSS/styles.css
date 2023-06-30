@@ -83,6 +83,12 @@
         width: 100%;
         height: auto;
     }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 479px) {
@@ -91,5 +97,11 @@
     .img_200 {
         width: 100%;
         height: auto;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
