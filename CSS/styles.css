@@ -89,6 +89,12 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
+    .total_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 479px) {
@@ -100,6 +106,12 @@
     }
 
     .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .total_container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
