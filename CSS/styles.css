@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-weight: bold;
     text-decoration: none;
-    display: block;
+    /* display: block; */
 }
 
 /* body {
