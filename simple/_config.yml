@@ -9,8 +9,7 @@
 title: PetrVav
 email: petr.v.2019@mail.ru
 description: Мой блог
-baseurl:
-url: https://petrvav.github.io
+baseurl: /simple
 twitter_username:  
 github_username: PetrVav 
 # Build settings
