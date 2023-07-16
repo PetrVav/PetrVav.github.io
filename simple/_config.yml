@@ -7,25 +7,15 @@
 
 # Site settings
 title: PetrVav
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
 email: petr.v.2019@mail.ru
 description: Мой блог
 baseurl:
 url: https://petrvav.github.io
-permalink: "/:title"
 twitter_username:  
 github_username: PetrVav 
 # Build settings
 markdown: kramdown
-gems:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-feed
-paginate: 7
+kramdown:
 exclude:
 - Gemfile
 - Gemfile.lock
