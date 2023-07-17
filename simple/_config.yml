@@ -11,11 +11,13 @@ title: Home
 email: petr.v.2019@mail.ru
 description: Мой блог
 baseurl: /simple
+url: http://petrvav.github.io
 twitter_username:  
 github_username: PetrVav 
 # Build settings
 markdown: kramdown
 kramdown:
+input: GFM
 exclude:
 - Gemfile
 - Gemfile.lock
