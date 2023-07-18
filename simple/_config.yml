@@ -10,8 +10,8 @@ remote_theme: petrvav/jekyll-theme.
 title: Home
 email: petr.v.2019@mail.ru
 description: Мой блог
-baseurl: /simple
-url: http://petrvav.github.io
+baseurl: 
+url: http://petrvav.github.io/simple
 twitter_username:  
 github_username: PetrVav 
 # Build settings
