@@ -30,10 +30,10 @@
 #   noscript: false 
 
 # Site settings
-title: Petr Vavilov
+title: Home
 email: petr.v.2019@mail.ru
 description: Мой блог
 baseurl: /blog
 url: http://petrvav.github.io
 github_username: PetrVav
-index: blog.html
+
