@@ -10,7 +10,7 @@ title: Home
 
     <article class="post_card post">
       <header class="post_header">
-        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <time class="post_date">{{ post.date | date: "%d %B %Y, %A" | replace: 'January','Января' | replace: 'February','Февраля' | replace: 'March','Марта' | replace: 'April','Апреля' | replace: 'May','Мая' | replace: 'June','Июня' | replace: 'July','Июля' | replace: 'August','Августа' | replace: 'September','Сентября' | replace: 'October','Октября' | replace: 'November','Ноября' | replace: 'December','Декабря' | replace: 'Monday', 'Понедельник' | replace: 'Tuesday', 'Вторник' | replace: 'Wednesday', 'Среда' | replace: 'Thursday', 'Четверг' | replace: 'Friday', 'Пятница' | replace: 'Saturday', 'Суббота' | replace: 'Sunday', 'Воскресенье' }}</time>
       </header>
       <div class="post_excerpt">
