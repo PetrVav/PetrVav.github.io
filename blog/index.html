@@ -16,7 +16,7 @@ title: Home
       <div class="post_excerpt">
         <p>
           {% if post.description %}
-          {{ post.description}}
+          {{ post.description }}
           {% else %}
           {{ post.excerpt }}
           {% endif %} 
@@ -36,7 +36,7 @@ title: Home
         {% for category in post.categories %}
         <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
           <data data-icon="ei-archive"></data>
-          {{category}}</a>
+          {{ category }}</a>
         {% endfor %}
         
 
@@ -50,13 +50,13 @@ title: Home
 
 
         p class="readmore">
-          <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
+          <a href=""><data data-icon="ei-arrow-right"></data>Read this article</a>
         </p
       </footer>
       <hr/>
     </article>
     {% endfor %}
 
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
+    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive</a></div>
   </div>
 </div>
