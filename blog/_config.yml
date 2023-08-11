@@ -32,6 +32,7 @@
 
 
 # # Site settings
+remote_theme: jekyll-simple
 title: Home
 email: petr.v.2019@mail.ru
 description: Мой блог
