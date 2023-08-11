@@ -1,0 +1,14 @@
+---
+layout: default
+title: Новости QA
+---
+
+
+    {% for post in site.categories.news%}
+
+      <h2><a href="{{ post.url|prepend:site.baseurl }}">{{ post.title }}</a></h2>
+      {{ post.description }}<br>
+      {{ post.date|date:"%d.%m.%Y" }}
+      <hr>
+
+    {% endfor %}
