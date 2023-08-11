@@ -1,13 +1,35 @@
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer left column one-half">
-   <section class="small-font">
-     <a href="#top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Наверх</font></font></a>
-        <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
-        Блог создан по теме </font></font><a target="_blank" href="http://github.com/wild-flame/jekyll-simple#readme"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jekyll-simple</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Размещено на </font></font><a target="_blank" href="https://pages.github.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">страницах Github</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .
-        </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-        Выпущен под </font></font><a href="https://opensource.org/licenses/MIT#content-wrapper" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">лицензией MIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .
-        </font></font><br>
-      </section>
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
     </div>
+
+  </div>
+
+</footer>
