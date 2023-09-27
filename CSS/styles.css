@@ -92,6 +92,18 @@
         height: auto;
     }
 
+    .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 700px;
+  
+  background-size: 900px;
+  background-attachment: fixed; 
+}
+
+.blockGb {
+    display: flex;
+}
+
     .container {
         display: flex;
         justify-content: space-around;
@@ -112,6 +124,18 @@
         width: 100%;
         height: auto;
     }
+
+    .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 700px;
+  
+  background-size: 900px;
+  background-attachment: fixed; 
+}
+
+.blockGb {
+    display: flex;
+}
 
     .container {
         display: flex;
