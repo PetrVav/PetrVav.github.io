@@ -57,6 +57,14 @@
 }
 
 .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 700px;
+  
+  background-size: 900px;
+  background-attachment: fixed; 
+}
+
+.blockGb {
     display: flex;
 }
 
