@@ -94,7 +94,7 @@
 
     .blockGb {
   background: url('../img/Gb.jpg') no-repeat;
-  height: 700px;
+  height: auto;
   
   background-size: 100%;
   background-attachment: fixed; 
@@ -127,7 +127,7 @@
 
     .blockGb {
   background: url('../img/Gb.jpg') no-repeat;
-  height: 400px;
+  height: auto;
   
   background-size: 100%;
   background-attachment: fixed; 
