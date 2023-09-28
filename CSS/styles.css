@@ -6,7 +6,13 @@
     box-sizing: border-box;
     font-weight: bold;
     text-decoration: none;
+    /* display: block; */
 }
+
+/* body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+} */
 
 .title {
     color: pink;
@@ -51,11 +57,11 @@
 }
 
 .blockGb {
-    background: url('../img/Gb.jpg') no-repeat;
-    height: 700px;
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 700px;
   
-    background-size: 900px;
-    background-attachment: fixed; 
+  background-size: 900px;
+  background-attachment: fixed; 
 }
 
 .blockGb {
@@ -77,28 +83,69 @@
 
 /* CSS стили для адаптации на разных устройствах */
 @media (max-width: 767px) {
-    .blockGb {
-        background-size: contain;
-        background-position: center;
-    }
 
-    .blockGb img {
+    .img_350,
+    .img_900,
+    .img_400,
+    .img_200 {
         width: 100%;
         height: auto;
     }
 
+    .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 700px;
+  
+  background-size: 100%;
+  background-attachment: fixed; 
+}
+
+.blockGb {
+    display: flex;
+}
+
     .container {
-        display: block;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .total_container {
-        display: block;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 479px) {
-    .blockGb img {
+
+    .img_400,
+    .img_200 {
         width: 100%;
         height: auto;
+    }
+
+    .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 400px;
+  
+  background-size: 100%;
+  background-attachment: fixed; 
+}
+
+.blockGb {
+    display: flex;
+}
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .total_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
