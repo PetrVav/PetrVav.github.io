@@ -8,6 +8,13 @@
     text-decoration: none;
 }
 
+h2 .header span, i {
+    display: block;    
+    transform: rotate(2deg);
+    position: relative;
+    top: 20px;
+}
+
 /*body {
     font-family: Arial, Helvetica, sans-serif;
    
