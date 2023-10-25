@@ -33,35 +33,67 @@ function hi() {
 
 document.getElementById("main-form").addEventListener("submit", checkForm);
 
-  function checkForm(event) { 
+//   function checkForm(event) { 
 
-    event.preventDefault(); //За счет этого метода(preventDefault)
-                            //мы отключаем стандартное поведение события
-                            //А стандартное поведение - это перезагрузка
-                            //страницы
+//     event.preventDefault(); //За счет этого метода(preventDefault)
+//                             //мы отключаем стандартное поведение события
+//                             //А стандартное поведение - это перезагрузка
+//                             //страницы
+//     var element = document.getElementById("main-form") 
+
+//     var name = element.name.value;
+//     var pass = element.pass.value;
+//     var repass = element.repass.value;
+//     var state = element.state.value;
+//     var fail = "";                
+
+// if(name == "" || pass == "" || state == "" )
+//     fail = "Заполните все поля";
+// else if(name.length <= 1 || name.length > 50)
+//     fail = "Введите корректное имя";
+// else if(pass != repass)
+//     fail = "Пароли должны совпадать";
+// else if(pass.split("&").length > 1)
+//     fail = "Некорректный пароль";
+
+//   if(fail != "") {             
+//     document.getElementById('error').innerHTML = fail; 
+//  } else { 
+//     alert("Все данные корректно заполнены");
+
+//    window.location = 'https://petrvav.github.io';
+//  }
+ 
+// }
+
+function checkForm(event) { 
+    event.preventDefault();
     var element = document.getElementById("main-form") 
-
     var name = element.name.value;
     var pass = element.pass.value;
     var repass = element.repass.value;
     var state = element.state.value;
     var fail = "";                
 
-if(name == "" || pass == "" || state == "" )
-    fail = "Заполните все поля";
-else if(name.length <= 1 || name.length > 50)
-    fail = "Введите корректное имя";
-else if(pass != repass)
-    fail = "Пароли должны совпадать";
-else if(pass.split("&").length > 1)
-    fail = "Некорректный пароль";
+    if(name == "" || pass == "" || state == "" )
+        fail = "Заполните все поля";
+    else if(name.length <= 1 || name.length > 50)
+        fail = "Введите корректное имя";
+    else if(pass != repass)
+        fail = "Пароли должны совпадать";
+    else if(pass.split("&").length > 1)
+        fail = "Некорректный пароль";
 
-  if(fail != "") {             
-    document.getElementById('error').innerHTML = fail; 
- } else { 
-    alert("Все данные корректно заполнены");
+    if(fail != "") {             
+        document.getElementById('error').innerHTML = fail; 
+    } else { 
+        alert("Все данные корректно заполнены");
 
-   window.location = 'https://petrvav.github.io';
- }
- 
+        // Сохранить данные формы в локальном хранилище
+        localStorage.setItem('name', name);
+        localStorage.setItem('pass', pass);
+        localStorage.setItem('state', state);
+
+        window.location = 'https://petrvav.github.io';
+    }
 }
