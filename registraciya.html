@@ -1,31 +1,46 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html leng="en">
 <head>
     <link rel="stylesheet" href="../CSS/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
     <title>registraciya</title>
 </head>
-
 <body>
+    <noscript>Включите JavaScript</noscript>    
     <a class="menu-link" href="index.html">Homepage</a>
     <a class="menu-link" href="registraciya.html">Регистрация</a>
     <a class="menu-link" href="Homework_s2.html">Моя первая страница</a>
     <a class="menu-link" href="Homework_3.JS.html">JavaScript</a>
     <a class="menu-link" href="newyear2.html">Новогодняя открытка</a>
     <h2>Регистрация</h2>
-    <form action="#">
-        <p>Ваше имя <input type="text"></p>
-        <p>Пароль <input type="password"></p>
-        <p>Ваша почта <input type="email"></p>
-        <p>Дата рождения <input type="date"></p>
-        <p>Сколько вам полных лет <input min="0" max="100" type="number"></p>
-        <button type="submit">Отправить</button>
-        <button type="reset">Удалить</button>
-    </form>
+    <!-- <form action="#"></form>    // На данный момент
+                                 этот атрибут(action) не нужен
+                                 Атрибут (action) указывает 
+                                 на какой страничке будет происходить
+                                 обработка всей формы 
+                                 Но эта страничка связана
+                                 с серверной обработкой данных
+                                 (GitHub не поддерживает),
+                                 а не с пользовательской обработкой данных
+                                  -->
 
+     <form id="main-form" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" name="pass" placeholder="Пароль" id="pass"><br><br>
+        <label for="repass">Проверка пароля:</label>
+        <input type="password" name="repass" placeholder="Проверка пароля" id="repass"><br><br>
+        <span>Пол:</span>
+        <input type="radio" name="state" id="male" value="Мужской">
+        <label for="male">Мужской</label>
+        <input type="radio" name="state" id="female" value="Женский">
+        <label for="female">Женский</label>
+        <div id="error" style="color: red"></div>
+        <input type="submit" name="submit" value="Готово">
+     </form>
+     <script src="js/main.js"></script> 
 </body>
-
 </html>

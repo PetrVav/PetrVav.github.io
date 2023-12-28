@@ -1,3 +1,57 @@
+header {
+    width: 90%;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c2c2c;
+    border-bottom: 2px solid #000;
+}
+
+header span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header input {
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    padding: 7px 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+header input:focus {
+    border-color: #dd5353;
+}
+
+header button {
+    border: 0;
+    background: #dd5353;
+    color: #661f1f;
+    padding: 6px 10px;
+    border-radius: 2px;
+    transition: transform 500ms ease;
+}
+
+header button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 .menu-link {
     font-size: 16px;
     line-height: 22px;
@@ -20,10 +74,10 @@
     text-align: center;
 }
 
-.header {
+/*.header {
     text-align: center;
     background-color: grey;
-}
+}*/
 
 .img_200 {
     width: 200px;
@@ -57,6 +111,14 @@
 }
 
 .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 700px;
+  
+  background-size: 900px;
+  background-attachment: fixed; 
+}
+
+.blockGb {
     display: flex;
 }
 
@@ -84,6 +146,18 @@
         height: auto;
     }
 
+    .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 400px;
+  
+  background-size: 100%;
+  background-attachment: fixed; 
+}
+
+.blockGb {
+    display: flex;
+}
+
     .container {
         display: flex;
         justify-content: space-around;
@@ -104,6 +178,18 @@
         width: 100%;
         height: auto;
     }
+
+    .blockGb {
+  background: url('../img/Gb.jpg') no-repeat;
+  height: 260px;
+  
+  background-size: 100%;
+  background-attachment: fixed; 
+}
+
+.blockGb {
+    display: flex;
+}
 
     .container {
         display: flex;

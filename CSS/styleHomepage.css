@@ -8,6 +8,13 @@
     text-decoration: none;
 }
 
+h2 .header span, i {
+    display: block;    
+    transform: rotate(2deg);
+    position: relative;
+    top: 20px;
+}
+
 /*body {
     font-family: Arial, Helvetica, sans-serif;
    
@@ -122,5 +129,20 @@ input {
 
     0% {
         transform: translateY(-2vh) scaleX(1, 1);
+    }
+}
+
+/* CSS стили для адаптации на разных устройствах */
+@media (max-width: 767px) {
+
+h2 .header span, i {    
+    top: 5px;
+    }
+}
+
+@media (max-width: 479px) {
+
+h2 .header span, i {    
+    top: 5px;
     }
 }
